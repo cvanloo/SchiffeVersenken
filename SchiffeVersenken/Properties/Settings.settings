@@ -1,0 +1,55 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SchiffeVersenken.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowHelpPreparation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Wins" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Loses" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="GamesPlayed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FastestWin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="FastestLost" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="BestWin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="WorstLose" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="Rules" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The battlefield is 10x10 fields tall. Ships can't touch each other and can't be placed diagonal.
+
+There are different kind of ships:
+
+        &gt; 1x Battleship (5 fields tall)
+        &gt; 2x Cruisers (4 fields tall)
+        &gt; 3x Destroyers (3 fields tall)
+        &gt; 4x Submarines (2 fields tall)
+
+Each player can shoot as long as he hits. After a miss, its the other players turn.</Value>
+    </Setting>
+    <Setting Name="s_Mine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="s_MineNum" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="HelpText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hold left-mouse-button to drag and drop ships onto the battlefield.
+
+Turn the mouse-wheel to change the orientation of a ship.
+
+Left-click once on an already placed ship to detach it and then click+drag to place it somewhere else.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
